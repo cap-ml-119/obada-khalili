@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "pip" # See documentation for possible values
-    directory: "/week1/flask-app/app/requirements.txt" # Location of package manifests
+    directory: "week1/flask-app/app/requirements.txt" # Location of package manifests
     schedule:
       interval: "daily"
