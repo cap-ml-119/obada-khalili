@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn import preprocessing
 
-model_url = "https://raw.githubusercontent.com/obadakhalili/bike-sharing-demand/main/ML%20model/model.pickle"  # noqa
+model_url = "https://github.com/cap-ml-119/obada-khalili/raw/bike-sharing-demand/Bike%20Sharing%20Demand/ML%20model/model.pickle"  # noqa
 model = pd.read_pickle(model_url)
 
 poly_transform = preprocessing.PolynomialFeatures(4).fit_transform
