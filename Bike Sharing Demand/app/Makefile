@@ -2,7 +2,7 @@ install: requirements.txt
 	pip install -r requirements.txt
 
 start:
-	python src/main.py
+	python3 src/main.py
 
 format:
 	yapf --recursive --in-place src
